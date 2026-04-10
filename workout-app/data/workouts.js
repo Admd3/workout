@@ -1,0 +1,57 @@
+export const WORKOUT_DATA = [
+  {
+    day: 1,
+    title: "Chest & Triceps",
+    icon: "💪",
+    color: "#E63946",
+    exercises: [
+      { name: "Bench Press", sets: 4, reps: "8-10", rest: 90, muscle: "Chest" },
+      { name: "Incline Dumbbell Press", sets: 3, reps: "10-12", rest: 75, muscle: "Upper Chest" },
+      { name: "Cable Flyes", sets: 3, reps: "12-15", rest: 60, muscle: "Chest" },
+      { name: "Tricep Dips", sets: 3, reps: "8-12", rest: 75, muscle: "Triceps" },
+      { name: "Overhead Tricep Extension", sets: 3, reps: "10-12", rest: 60, muscle: "Triceps" },
+    ],
+  },
+  {
+    day: 2,
+    title: "Back & Biceps",
+    icon: "🏋️",
+    color: "#457B9D",
+    exercises: [
+      { name: "Barbell Rows", sets: 4, reps: "8-10", rest: 90, muscle: "Back" },
+      { name: "Pull-ups / Lat Pulldowns", sets: 4, reps: "8-12", rest: 90, muscle: "Lats" },
+      { name: "Seated Cable Rows", sets: 3, reps: "10-12", rest: 75, muscle: "Mid Back" },
+      { name: "Face Pulls", sets: 3, reps: "15-20", rest: 60, muscle: "Rear Delts" },
+      { name: "Barbell Curls", sets: 3, reps: "10-12", rest: 60, muscle: "Biceps" },
+      { name: "Hammer Curls", sets: 3, reps: "10-12", rest: 60, muscle: "Biceps" },
+    ],
+  },
+  {
+    day: 3,
+    title: "Shoulders & Core",
+    icon: "🔥",
+    color: "#E9C46A",
+    exercises: [
+      { name: "Overhead Press", sets: 4, reps: "8-10", rest: 90, muscle: "Shoulders" },
+      { name: "Lateral Raises", sets: 4, reps: "12-15", rest: 60, muscle: "Side Delts" },
+      { name: "Reverse Flyes", sets: 3, reps: "12-15", rest: 60, muscle: "Rear Delts" },
+      { name: "Shrugs", sets: 3, reps: "12-15", rest: 60, muscle: "Traps" },
+      { name: "Hanging Leg Raises", sets: 3, reps: "12-15", rest: 60, muscle: "Core" },
+      { name: "Cable Crunches", sets: 3, reps: "15-20", rest: 45, muscle: "Core" },
+      { name: "Plank", sets: 3, reps: "45-60s", rest: 45, muscle: "Core" },
+    ],
+  },
+  {
+    day: 4,
+    title: "Legs",
+    icon: "⚡",
+    color: "#2A9D8F",
+    exercises: [
+      { name: "Squats", sets: 4, reps: "6-8", rest: 120, muscle: "Quads/Glutes" },
+      { name: "Romanian Deadlifts", sets: 4, reps: "8-10", rest: 90, muscle: "Hamstrings" },
+      { name: "Leg Press", sets: 3, reps: "10-12", rest: 90, muscle: "Quads" },
+      { name: "Walking Lunges", sets: 3, reps: "12 each", rest: 75, muscle: "Quads/Glutes" },
+      { name: "Calf Raises", sets: 4, reps: "15-20", rest: 60, muscle: "Calves" },
+    ],
+  },
+];
